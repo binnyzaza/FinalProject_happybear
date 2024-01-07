@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HAPPY BEAR</string>
+    <string name="score_0">Score: 0</string>
+    <string name="start">Start</string>
+    <string name="score">Score: %1$d</string>
+    <string name="don_t_touch_orange">Don\'t touch orange</string>
+    <string name="s">Score : 0</string>
+    <string name="happy_bear_game">Happy Bear Game</string>
+    <string name="score_00">Score : 0</string>
+</resources>

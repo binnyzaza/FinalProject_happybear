@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:background="@drawable/sky"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text=" "
+        android:textAlignment="center"
+        android:textSize="28sp" />
+
+
+    <ImageView
+        android:id="@+id/nameImageView"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:background="@drawable/name" />
+
+    <ImageButton
+        android:id="@+id/startButton"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginBottom="100sp"
+        android:layout_marginStart="25sp"
+        android:background="@drawable/start" />
+
+
+</LinearLayout>
